@@ -7,31 +7,33 @@
    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <form action="">
-      <fieldset id="name-field">
+   <form action="index.html" method="post">
+      <h1>Sign Up</h1>
+      <fieldset class="field">
          <span aria-label="required">
-            <label for="name">Full Name</label>
+            <label for="name">Name:</label>
             <input type="text" name="name" id="name">
          </span>
       </fieldset>
-      <fieldset id="email-field">
+      <fieldset class="field">
          <span aria-label="required">
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
             <input type="email" name="email" id="email">
          </span>
       </fieldset>
-      <fieldset id="password-field">
+      <fieldset class="field">
          <span aria-label="required">
-            <label for="password">Password</label>
+            <label for="password">Password:</label>
             <input type="password" name="password" id="password">
          </span>
       </fieldset>
-      <fieldset id="password-confirm">
+      <fieldset class="field">
          <span aria-label="required">
-            <label for="password-confirm">Confirm Password</label>
+            <label for="password-confirm">Confirm Password:</label>
             <input type="password" name="password-confirm" id="password-confirm">
          </span>
       </fieldset>
+      <button type="submit">Sign Up</button>
    </form>
 </body>
 </html>
